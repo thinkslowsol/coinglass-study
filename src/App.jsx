@@ -77,4 +77,5 @@ const Loading = styled.div`
   justify-content: center;
   transition: 0.3s all;
   opacity: ${(props) => (props.loading ? '100%' : '0')};
+  visibility: ${(props) => (props.loading ? 'visible' : 'hidden')};
 `
